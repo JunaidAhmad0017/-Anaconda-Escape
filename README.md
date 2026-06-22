@@ -1,20 +1,24 @@
-# Sprint 1 - Modeling
+# snake-unity
+Snake game created using Unity engine.
 
-Date: June 15, 2026  
-Status: Completed  
-Assignment Focus: Create base game objects and environment elements.
+Download APK Android file [here](https://github.com/dzduniak/Snake-Unity/files/1418958/snake.zip).
 
-## Work Completed
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O5O31JYZ4)
 
-- Prepared the reusable `Tile` prefab used to build the Snake game board.
-- Defined the base object structure for the playable environment.
-- Established the modular object approach used by the rest of the project.
+## how to open project in unity
 
-## Deliverables
+First you have to install Unity engine (try installing the newest version), remember to also install Android (or iOS) module.
+Then clone (or download) the repository.
+Open the project in Unity (start Unity -> click open -> select the repository directory).
 
-- `Prefabs/Tile.prefab`
-- `Prefabs/Tile.prefab.meta`
+After opening the project, open the main scene: using Unity's asset browser navigate to the "Scenes" directory and double click "Main" scene.
 
-## Suggested Commit Message
+Now you have to switch platform to Android (or iOS): open File menu -> click Build Settings... -> Select Android (or iOS) -> click Switch Platform.
 
-`Sprint 1 - Modeling: Tile prefab and object structure added`
+You can start the game by clicking play button. After starting the game in player you should change aspect ratio to portrait orientation.
+
+Note: You may be confused that after opening the main scene you can't see anything in the editor - you have to zoom out (use mouse scroll wheel to zoom out).
+
+## screenshot
+
+![Screenshot](https://github.com/dzduniak/Snake-Unity/raw/master/Screenshot.png)
